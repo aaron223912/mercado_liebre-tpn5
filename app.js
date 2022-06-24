@@ -7,3 +7,5 @@ app.listen(port,() =>console.log('server running in http://localhost:' +port))
 
 /* RECURSOS ESTATICOS */
 app.use(express.static('public'));
+
+app.get('/',(req,res)=>res.sendFile(path.join(__dirname,'views','home.html')))
