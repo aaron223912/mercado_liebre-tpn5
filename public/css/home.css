@@ -1,0 +1,21 @@
+/*HEADER*/
+
+.home__header{
+    background-color: var(--Amarillo);
+    text-align: center;
+    font-family: roboto;
+}
+
+.home__header__logo{
+    margin: 20px;
+    width: 200px;
+}
+.home__header button{
+    margin: 30px;
+}
+
+.home__main h2{
+    text-align: center;
+    font-size: var(--textoSizeTitulares);
+    margin: 25px;
+}

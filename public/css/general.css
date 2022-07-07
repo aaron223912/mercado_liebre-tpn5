@@ -1,0 +1,32 @@
+:root{
+--Amarillo: #EAC926;
+--Azul: #03264C;
+--Celeste: #1259c3;
+--Grisoscuro: #666;
+--Grisclaro: #ebebeb;
+--Verde: #39b54a;   
+
+--textoSizeCuerpo: 12px;
+--textoSizeTitulares: 24px;
+--textoSizePrecios: 18px;
+--textoSizeDescuentos: 16px;
+--textoSizeDescripciones: 16px
+}
+
+/*box-sizing: border-box; PERMITE QUE EL ELEMNTO NO CRESCA FUERA DE LA CAJA*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+li{
+    list-style: none;
+}
+
+ul,ol{
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
