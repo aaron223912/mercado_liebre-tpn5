@@ -2,20 +2,66 @@
 
 .home__header{
     background-color: var(--Amarillo);
-    text-align: center;
+    
     font-family: roboto;
 }
 
 .home__header__logo{
-    margin: 20px;
+    padding: 20px 10px;
     width: 200px;
 }
-.home__header button{
-    margin: 30px;
+
+.home__header__menu ul,p {
+
+    padding: 10px;
+    
 }
+
+.button__header{
+    background-color: var(--Azul);
+    margin: 10% 45%;
+}
+.button__header i{
+    color: white;
+}
+
+/*MAIN*/
 
 .home__main h2{
     text-align: center;
     font-size: var(--textoSizeTitulares);
     margin: 25px;
+}
+.home__main h3{
+    text-align: center;
+    font-size: var(--textoSizeDescripciones);
+}
+
+.ofertas__precio{
+    text-align: center;
+   font-size: var(--textoSizePrecios);
+   padding: 0%;
+}
+.ofertas__descuento{
+    text-align: center;
+    font-size: var(--textoSizeDescuentos);
+    padding: 0%;
+}
+
+/*FOOTER*/
+
+.home__footer{
+    margin-top: 20px;
+}
+
+.home__footer article{
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.home__footer i{
+    color: var(--Azul);
+}
+.home__footer h5{
+    padding: 10px;
 }
